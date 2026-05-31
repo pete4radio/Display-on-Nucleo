@@ -1,0 +1,9 @@
+# Build artifacts
+Debug/*.elf
+Debug/*.map
+Debug/*.list
+Debug/default.size.stdout
+Debug/**/*.o
+Debug/**/*.su
+Debug/**/*.cyclo
+Debug/**/*.d

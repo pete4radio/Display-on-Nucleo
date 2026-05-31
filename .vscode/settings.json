@@ -1,0 +1,17 @@
+{
+  "C_Cpp.default.includePath": [
+    "${workspaceFolder}/Core/Inc",
+    "${workspaceFolder}/Drivers/STM32L4xx_HAL_Driver/Inc",
+    "${workspaceFolder}/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy",
+    "${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32L4xx/Include",
+    "${workspaceFolder}/Drivers/CMSIS/Include",
+    "${workspaceFolder}/Adafruit_GFX_Library"
+  ],
+  "C_Cpp.default.defines": [
+    "STM32L4R5xx",
+    "USE_HAL_DRIVER",
+    "DEBUG"
+  ],
+  "C_Cpp.default.compilerPath": "/usr/bin/clang",
+  "C_Cpp.default.intelliSenseMode": "macos-clang-x64"
+}
