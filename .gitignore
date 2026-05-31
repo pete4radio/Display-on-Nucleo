@@ -1,4 +1,4 @@
-# Build artifacts
+# STM32 build artifacts
 Debug/*.elf
 Debug/*.map
 Debug/*.list
@@ -7,3 +7,51 @@ Debug/**/*.o
 Debug/**/*.su
 Debug/**/*.cyclo
 Debug/**/*.d
+
+# Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+*.so.*
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Linker / debugger
+*.ilk
+*.pdb
+*.dwo
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# Temporary
+*.tmp
+*.log
+*.bak
+*.swp
+
+# macOS
+.DS_Store
