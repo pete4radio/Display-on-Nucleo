@@ -1,4 +1,7 @@
-# STM32 build artifacts
+# CMake build output
+build/
+
+# STM32 Makefile build artifacts
 Debug/*.elf
 Debug/*.map
 Debug/*.list
